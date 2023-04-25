@@ -1,0 +1,138 @@
+{
+  "costs": {
+    "base_price": {
+      "display": "$31.92",
+      "currency": "USD",
+      "value": 3192,
+      "major_value": "31.92"
+    },
+    "eventbrite_fee": {
+      "display": "$2.15",
+      "currency": "USD",
+      "value": 215,
+      "major_value": "2.15"
+    },
+    "gross": {
+      "display": "$35.00",
+      "currency": "USD",
+      "value": 3500,
+      "major_value": "35.00"
+    },
+    "payment_fee": {
+      "display": "$0.93",
+      "currency": "USD",
+      "value": 93,
+      "major_value": "0.93"
+    },
+    "tax": {
+      "display": "$0.00",
+      "currency": "USD",
+      "value": 0,
+      "major_value": "0.00"
+    },
+    "has_gts_tax": false,
+    "fee_components": [],
+    "shipping_components": [],
+    "tax_components": []
+  },
+  "resource_uri": "https://www.eventbriteapi.com/v3/orders/1234567890/",
+  "id": "1234567890",
+  "changed": "2023-03-04T15:01:27Z",
+  "created": "2023-03-04T15:01:23Z",
+  "name": "John Doe",
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "jdoe@example.com",
+  "status": "placed",
+  "time_remaining": null,
+  "event_id": "111222333444",
+  "attendees": [
+    {
+      "costs": {
+        "base_price": {
+          "display": "$31.92",
+          "currency": "USD",
+          "value": 3192,
+          "major_value": "31.92"
+        },
+        "eventbrite_fee": {
+          "display": "$2.15",
+          "currency": "USD",
+          "value": 215,
+          "major_value": "2.15"
+        },
+        "gross": {
+          "display": "$35.00",
+          "currency": "USD",
+          "value": 3500,
+          "major_value": "35.00"
+        },
+        "payment_fee": {
+          "display": "$0.93",
+          "currency": "USD",
+          "value": 93,
+          "major_value": "0.93"
+        },
+        "tax": {
+          "display": "$0.00",
+          "currency": "USD",
+          "value": 0,
+          "major_value": "0.00"
+        }
+      },
+      "resource_uri": "https://www.eventbriteapi.com/v3/events/111222333444/attendees/1111111111/",
+      "id": "1111111111",
+      "changed": "2023-03-04T15:01:26Z",
+      "created": "2023-03-04T15:01:23Z",
+      "quantity": 1,
+      "variant_id": null,
+      "profile": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "jdoe@example.com",
+        "name": "John Doe",
+        "addresses": {}
+      },
+      "barcodes": [
+        {
+          "status": "unused",
+          "barcode": "99999999999999999999999",
+          "created": "2023-03-04T15:01:27Z",
+          "changed": "2023-03-04T15:01:27Z",
+          "checkin_type": 0,
+          "is_printed": false
+        }
+      ],
+      "answers": [
+        {
+          "question": "Conditions for Child and Youth membership",
+          "type": "text",
+          "question_id": "444444444"
+        },
+        {
+          "answer": "Johnny",
+          "question": "Badge Name",
+          "type": "text",
+          "question_id": "555555555"
+        },
+        {
+          "question": "Child Badge Name",
+          "type": "text",
+          "question_id": "666666666"
+        }
+      ],
+      "checked_in": false,
+      "cancelled": false,
+      "refunded": false,
+      "affiliate": "oddtdteb",
+      "guestlist_id": null,
+      "invited_by": null,
+      "status": "Attending",
+      "ticket_class_name": "Weekend Membership",
+      "delivery_method": "electronic",
+      "event_id": "111222333444",
+      "order_id": "1234567890",
+      "ticket_class_id": "555555555"
+    }
+  ]
+}

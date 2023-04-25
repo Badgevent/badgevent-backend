@@ -1,0 +1,8 @@
+Hello {{givenName}} {{familyName}},
+
+You recently registered for {{eventNames}} through {{extSystemId}}. Your membership has been added to your account on {{site}} with a login of '{{login}}' and an email address of '{{email}}'.  
+Login to our site is not essential, but we highly encourage you to login to the site periodically to check for new functionality.  
+If you do not know the password for this account, please simply reset your password from the login screen.
+
+Thank you,
+{{eventNames}} Registration Team

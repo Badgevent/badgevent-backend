@@ -1,0 +1,16 @@
+{
+  "<eventid>": {
+    "db_user": "",
+    "question_id_badgename": "",
+    "question_id_childbadgename": "",
+    "ticket_classes": {
+        "926336719": {"ticket_class_name": "Weekend Membership",  "ticket_class_id": "", "effective": "2023-07-28", "expires": "2023-07-31", "role": "member"},
+        "926356499": {"ticket_class_name": "Friday Only",         "ticket_class_id": "", "effective": "2023-07-28", "expires": "2023-07-28", "role": "member"},
+        "926358089": {"ticket_class_name": "Saturday Only",       "ticket_class_id": "", "effective": "2023-07-29", "expires": "2023-07-29", "role": "member"},
+        "926358589": {"ticket_class_name": "Sunday Only",         "ticket_class_id": "", "effective": "2023-07-30", "expires": "2023-07-30", "role": "member"},
+        "926358969": {"ticket_class_name": "Monday Only",         "ticket_class_id": "", "effective": "2023-07-31", "expires": "2023-07-31", "role": "member"},
+        "937570929": {"ticket_class_name": "Youth 8-12",          "ticket_class_id": "", "effective": "2023-07-28", "expires": "2023-07-31", "role": "child"},
+        "937583249": {"ticket_class_name": "Child 0-7",           "ticket_class_id": "", "effective": "2023-07-28", "expires": "2023-07-31", "role": "child"}
+    }
+  }
+}
