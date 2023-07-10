@@ -385,6 +385,8 @@ exports.handler = async function (event, context) {
       const email = attendee.profile.email;
       const ticketClassId = attendee.ticket_class_id;
       const ticketClassName = attendee.ticket_class_name;
+      const cancelled = attendee.cancelled;
+      const refunded = attendee.refunded;
       let badgeName = "";
       let childBadgeName = "";
       for (const answer of attendee.answers) {
@@ -410,6 +412,11 @@ exports.handler = async function (event, context) {
         if (ticketClass.role === "child") {
           badgeName = childBadgeName;
         }
+        if (cancelled || refunded) {
+          expires = "1992-10-05";
+        } else {
+          expires = ticketClass.expires;
+        }
         await createOrUpdateUserRoleByExtId(
           "Eventbrite",
           eventbriteEventId,
@@ -421,7 +428,7 @@ exports.handler = async function (event, context) {
           email,
           ticketClass.role,
           ticketClass.effective,
-          ticketClass.expires,
+          expires,
           createdOn,
           badgeName
         ).catch((err) => {
